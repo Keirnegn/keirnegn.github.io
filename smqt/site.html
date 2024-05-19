@@ -9,14 +9,12 @@
 
 </head>
 <body>
-<div class="adanaKebap">
   <div class="urfaKebap">
-    <strong id="title" >Benimle date'e çıkar mısın</st>
+    <strong id="title" >Benimle date'e çıkar mısın</strong>
     <img id="mcqueen" src="mcqueen.jpeg" /> 
     <button id="button">EVET</button>
   </div> 
     <button id="serefsiz-button">HAYIR</button>
-</div>
 </body>
 <style>
 body {
@@ -50,11 +48,7 @@ body {
   margin: 0;
   }
 
-.adanaKebap{
-  margin: auto;
-  position: absolute;
-  bottom: 90vh;
-}
+
 
 .urfaKebap{
   margin: auto;
@@ -79,6 +73,56 @@ body {
   height: 20vw;
   width: 35vw;
   }
+
+
+@media (max-width: 600px){
+
+
+  .urfaKebap{
+  margin: auto;
+  position: absolute;
+  top: 3vw;
+  left: 0vw;
+  
+  }
+#title{
+position: absolute;
+white-space: nowrap;
+font-size: 7vw;
+top: 3vw;
+left: 5vw;  
+margin: 0;  
+}
+
+  #mcqueen{
+  margin: 0;
+  position: absolute;
+  top: 15vw;
+  left: 0;
+  height: 50vw;
+  width: 100vw;
+  }
+
+  #serefsiz-button {
+  position: absolute;
+  white-space: nowrap;
+  font-size: 6vw;
+  top: 80vw;
+  left: 55vw;
+  }
+  
+#button {
+  position: absolute;
+  white-space: nowrap;
+  font-size: 6vw;
+  top: 77vw;
+  left: 25vw;
+  }
+
+
+
+
+}
 
   </style>
 </html>
