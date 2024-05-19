@@ -6,6 +6,10 @@ serefsizButton.addEventListener('click', () => {
   window.close()
 })
 
+button.addEventListener('click', () => {
+    window.location.replace("https://keirnegn.dev/smqt/site2.html");
+  })
+
 document.addEventListener('mousemove', (e) => {
   const x = e.pageX
   const y = e.pageY
