@@ -47,7 +47,7 @@ function reveal1() {
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // function([string1, string2],target id,[color1,color2])    
-consoleText(['Kundura Pazarlama', 'Afgan Ticareti', 'Horoz Kavgasi'],
+consoleText(['Lorem Ipsum', 'Lorem Ipsum', 'Lorem Ipsum'],
   'text',
   ['tomato', 'gold', 'orange']);
 
